@@ -17,6 +17,7 @@ Sistem, yapay zeka halüsinasyonlarını (uydurma) engellemek amacıyla doğruda
 
 <img width="2550" height="1472" alt="Ekran görüntüsü 2026-06-10 023305" src="https://github.com/user-attachments/assets/b6544c5d-9108-48e2-976f-2403ae234b44" />
 <img width="1999" height="1448" alt="Ekran görüntüsü 2026-06-10 020703" src="https://github.com/user-attachments/assets/1e1d0b42-4b3d-4b94-9870-06b3562578ce" />
+<img width="1990" height="1454" alt="Ekran görüntüsü 2026-06-10 020754" src="https://github.com/user-attachments/assets/0832ca2a-0936-41e8-8281-a3a9689fc7bd" />
 
 
 
