@@ -48,7 +48,19 @@ Soru
              └─→ URL Temizleme & Tekilleştirme
                  └─→ Gemini ile adayların skorlanması
                      └─→ En iyi N Aday + Cache (Redis)
-🧱 İkili Mimari (Frontend + Backend)KatmanTeknolojiPortKullanım AmacıFrontendStreamlit (app.py)8501İç ekip ve demolar için görsel sohbet paneli.BackendFastAPI (api.py)8000Kurumsal sistemler için saf JSON/SSE API.🛠 Kullanılan TeknolojilerBackend & API: Python 3.12, FastAPI, Uvicorn, Pydantic v2Arayüz: StreamlitYapay Zeka: Google Gemini, Ollama (qwen2.5:14b)Veritabanı & Cache: Qdrant, PostgreSQL 14+, Redis, DockerOSINT & Arama: Serper, Tavily, Firecrawl⚙️ Kurulum Adımları1. Projeyi Klonlama ve Sanal OrtamBashgit clone [https://github.com/KULLANICI_ADINIZ/lasersan-ai.git](https://github.com/KULLANICI_ADINIZ/lasersan-ai.git)
+🧱 İkili Mimari (Frontend + Backend)KatmanTeknolojiPortKullanım AmacıFrontendStreamlit (app.py)8501
+İç ekip ve demolar için görsel sohbet paneli.BackendFastAPI (api.py)8000
+Kurumsal sistemler için saf JSON/SSE API.
+
+🛠 Kullanılan Teknolojiler: 
+Backend & API: Python 3.12, FastAPI, Uvicorn, Pydantic v2
+Arayüz: Streamlit
+Yapay Zeka: Google Gemini, Ollama (qwen2.5:14b)
+Veritabanı & Cache: Qdrant, PostgreSQL 14+, Redis, DockerOSINT  
+Arama: Serper, Tavily, Firecrawl
+⚙️ Kurulum Adımları
+1. Projeyi Klonlama ve Sanal Ortam
+Bashgit clone [https://github.com/KULLANICI_ADINIZ/lasersan-ai.git](https://github.com/KULLANICI_ADINIZ/lasersan-ai.git)
 cd lasersan-ai
 
 # Windows
@@ -64,4 +76,5 @@ source .venv/bin/activate
 docker run -d --name lasersan-qdrant -p 6333:6333 -v qdrant_storage:/qdrant/storage qdrant/qdrant
 🚀 Sistemi ÇalıştırmaA. Headless API SunucusuBashuvicorn api:app --reload --host 0.0.0.0 --port 8000
 B. Görsel Arayüz (Streamlit)Bashstreamlit run app.py
-📡 API Endpoint Kullanımıİsteklerde X-API-Key header'ı zorunludur.EndpointMetotAçıklama/healthGETCanlılık kontrolü./api/v1/chatPOSTRAG Chatbot (SSE streaming)./api/v1/discoverPOSTOSINT rakip keşfi.
+📡 API Endpoint Kullanımıİsteklerde X-API-Key header'ı zorunludur.
+EndpointMetotAçıklama/healthGETCanlılık kontrolü./api/v1/chatPOSTRAG Chatbot (SSE streaming)./api/v1/discoverPOSTOSINT rakip keşfi.
