@@ -2,7 +2,9 @@
 
 Markdown# 🚀 Lasersan AI - Kurumsal RAG ve OSINT Asistanı
 
-![Sistem Genel Görünümü](gorsel_klasoru/foto1_genel_bakis.jpg)
+![Sistem Genel Görünümü]
+<img width="1999" height="1453" alt="Ekran görüntüsü 2026-06-10 020613" src="https://github.com/user-attachments/assets/b5f07b0b-5214-4844-abfc-bfd6102ef9f8" />
+
 > *Sistem arayüzü ve genel kullanım ekranı.*
 
 Lasersan AI, savunma ve optik ürün katalogları üzerine inşa edilmiş, **iki ana yeteneğe** (RAG tabanlı Soru-Cevap ve OSINT Rakip Keşfi) sahip gelişmiş bir yapay zeka asistanıdır. Sistem, iç ekipler için Streamlit tabanlı bir arayüz ve kurumsal web entegrasyonları için FastAPI tabanlı bir Headless API (SSE Streaming destekli) sunar.
