@@ -1,5 +1,5 @@
 # Jr-AI-NativeProductEng
-Markdown# 🚀 Lasersan AI - Kurumsal RAG ve OSINT Asistanı
+ Lasersan AI - Kurumsal RAG ve OSINT Asistanı
 
 Sistem Genel Görünümü
 <img width="1999" height="1453" alt="Ekran görüntüsü 2026-06-10 020613" src="https://github.com/user-attachments/assets/f17a69d6-55a3-4706-b90b-8d2cbb351188" />
