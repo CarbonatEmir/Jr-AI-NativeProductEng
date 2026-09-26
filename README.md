@@ -15,8 +15,11 @@ Lasersan AI, savunma ve optik ürün katalogları üzerine inşa edilmiş, **iki
 
 Sistem, yapay zeka halüsinasyonlarını (uydurma) engellemek amacıyla doğrudan vektör veritabanından (Qdrant) getirilen gerçek ürün bağlamlarına dayanarak çalışır. 
 
-![Sistem Mimarisi ve Akış Şeması](gorsel_klasoru/foto2_mimari.jpg)
-> *Sistemin arka plandaki veri akışı ve bileşen mimarisi.*
+<img width="2550" height="1472" alt="Ekran görüntüsü 2026-06-10 023305" src="https://github.com/user-attachments/assets/b6544c5d-9108-48e2-976f-2403ae234b44" />
+<img width="1999" height="1448" alt="Ekran görüntüsü 2026-06-10 020703" src="https://github.com/user-attachments/assets/1e1d0b42-4b3d-4b94-9870-06b3562578ce" />
+
+
+
 
 ### 1. RAG Tabanlı Chatbot (Soru-Cevap Hattı)
 Kullanıcı sorguları, veritabanındaki ürün bilgileriyle zenginleştirilerek dil modeline (LLM) iletilir.
